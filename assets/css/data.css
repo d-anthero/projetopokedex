@@ -1,0 +1,15 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%
+}
+.types {
+    list-style-type: none;
+    margin: 10px;
+    padding-left: 0px;
+}
+.dataimg {
+    max-width: 70%;
+}
