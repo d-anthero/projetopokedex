@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="/assets/css/data.css">
   <link rel="stylesheet" href="/assets/css/global.css">
   <link rel="stylesheet" href="/assets/css/pokedex.css"> 
+  
    
   <title>Pokédex</title>
 </head>
@@ -22,30 +23,12 @@
     <section class="content">
 <div class = "center">
     <ol id="pokemondata">
-        <h1>${pokemon.name}</h1>
-        <img class="dataimg"src=${pokemon.secondimage}></img>
-        <ol class="types">
-        ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
-        </ol>
-            //{//pokemon.ability}</span>
-</div>
-
-
-<ul>
-    <li>HP:</li>
-    <li>Ataque:</li>
-    <li>Defesa:</li>
-    <li>Ataque Sp.:</li>
-    <li>Defesa Sp.:</li>
-    <li>Velocidade:</li>
-    <li>Total:</li>
 </ol>
     </section>
 
     <!-- JS -->
 <script src="/assets/js/pokemon-model.js"></script>
 <script src="/assets/js/poke-api.js"></script>
-<script src="/assets/js/pokedata.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/poke-data.js"></script>
 </body>
 </html>
