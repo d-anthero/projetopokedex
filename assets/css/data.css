@@ -1,3 +1,7 @@
+h1{
+    text-transform: capitalize;
+}
+
 .details {
     display: flex;
     flex-direction: row;
@@ -12,4 +16,13 @@
 }
 .dataimg {
     max-width: 70%;
+}
+
+.dataabilities{
+    text-transform: capitalize;
+}
+
+.datastats{
+    list-style-type: none;
+    padding-left: 0px;
 }

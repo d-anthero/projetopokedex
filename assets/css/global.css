@@ -69,6 +69,12 @@ body{
     flex-direction: column;
 }
 
+.pokemon:hover{
+    background-image: url("../pokeball.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
 .pokemon .name{
     text-transform:capitalize;
     margin-bottom: 0px;
@@ -84,21 +90,5 @@ body{
 
 .pokemon .details img{
     align-self: flex-end;
-}
-
-.pokemon .pressbutton {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    cursor: pointer;
-    border: none;
-    border-radius: 5px; /* Cantos arredondados */
-    text-align: center;
-    text-decoration: none;
-}
-
-.pressbutton:hover {
-    background-color: #0056b3; /* Cor de fundo do botão no hover */
 }
 

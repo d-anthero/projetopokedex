@@ -27,18 +27,17 @@ function convertPokemonDetailToLi(pokemon){
     <ol class="types">
     ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
     </ol>
-        <span>${pokemon.ability}</span>
+        <span class="dataabilities">${pokemon.ability}</span>
 </div>
 
 
-<ul>
-<li>HP:${pokemon.hp}</li>
-<li>Ataque:</li>
-<li>Defesa:</li>
-<li>Ataque Sp.:</li>
-<li>Defesa Sp.:</li>
-<li>Velocidade:</li>
-<li>Total:</li>
+<ul class ="datastats">
+<li>HP: ${pokemon.hp}</li>
+<li>Attack: ${pokemon.attack}</li>
+<li>Defense: ${pokemon.defense}</li>
+<li>Special Attack: ${pokemon.spattack}</li>
+<li>Special Defense: ${pokemon.spdefense}</li>
+<li>Speed: ${pokemon.speed}</li>
     `
 }
 

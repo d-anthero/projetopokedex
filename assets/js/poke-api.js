@@ -14,7 +14,13 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     pokemon.image = pokeDetail.sprites.other.dream_world.front_default
     pokemon.photo = pokeDetail.sprites.front_default
     pokemon.ability = ability
-    pokemon.hp = stats[0]
+    pokemon.hp = stats[0];
+    pokemon.attack = stats[1];
+    pokemon.defense = stats[2];
+    pokemon.spattack = stats[3];
+    pokemon.spdefense = stats[4];
+    pokemon.speed = stats[5];
+
     console.log(stats)
 
 
